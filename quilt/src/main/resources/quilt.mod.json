@@ -1,34 +1,33 @@
 {
   "schema_version": 1,
   "mixin": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
   ],
   "quilt_loader": {
-    "group": "${group}",
-    "id": "examplemod",
+    "group": "trinitysoft",
+    "id": "preset_dims",
     "version": "${version}",
     "metadata": {
-      "name": "Example Mod",
-      "description": "This is an example description! Tell everyone what your mod is about!",
+      "name": "Preset Dimensions",
+      "license": "MPL-2.0",
+      "description": "Extremely bare-bones mod for copying preset dimension folders into a given world's /dimensions folder.",
       "contributors": {
-        "Me!": "Owner"
+        "trinitysoft": "rin/cocona20xx"
       },
       "contact": {
-        "sources": "https://github.com/architectury/architectury-templates"
+        "sources": "https://github.com/cocona20xx/preset-dimension-folders"
       },
-      "icon": "assets/examplemod/icon.png"
+      "icon": "assets/preset_dims/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "net.examplemod.quilt.ExampleModQuilt"
+        "trinitysoft.preset_dims.quilt.PresetDimsQuilt"
       ]
     },
     "depends": [
       {
         "id": "quilt_loader",
-        "version": "*"
+        "version": ">=0.26.0"
       },
       {
         "id": "quilt_base",
@@ -36,11 +35,7 @@
       },
       {
         "id": "minecraft",
-        "version": ">=1.20.1"
-      },
-      {
-        "id": "architectury",
-        "version": ">=9.1.12"
+        "version": "1.20.1"
       }
     ]
   },

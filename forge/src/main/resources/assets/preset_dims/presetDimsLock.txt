@@ -1,0 +1,3 @@
+WHAT IS THIS FILE?:
+This is a lock file created by the Preset Dimensions mod, in order to prevent preset dimensions from being added more than once to a save folder.
+Delete this file to regenerate any preset dimensions in this world from the current dimension folders in the dimensions_preset directory.

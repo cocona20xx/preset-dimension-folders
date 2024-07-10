@@ -1,35 +1,28 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/cocona20xx/preset-dimension-folders/issues"
+license = "MPL2.0"
 
 [[mods]]
-modId = "examplemod"
+modId = "preset_dims"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Preset Dimensions"
+authors = "rin/cocona20xx (trinitysoft)"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Extremely bare-bones mod for copying preset dimension folders into a given world's /dimensions folder.
 '''
-#logoFile = ""
+logoFile = "assets/preset_dims/icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.preset_dims]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.preset_dims]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.examplemod]]
-modId = "architectury"
-mandatory = true
-versionRange = "[9.1.12,)"
-ordering = "AFTER"
 side = "BOTH"
