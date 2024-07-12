@@ -1,9 +1,9 @@
 # Preset Dimensions
 ### For 1.20.1 (Neo)Forge and Quilt
 
-Modrinth link: TBA
+[Modrinth link](https://modrinth.com/mod/preset-dims)
 
-Curseforge link: TBA
+[Curseforge link](https://legacy.curseforge.com/minecraft/mc-mods/preset-dimensions)
 
 #### Usage instructions:
 - Place dimension presets (for instance, a pre-built dungeon in its own superflat dim) in `.minecraft/dimension_presets`
